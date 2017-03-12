@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>The Goose & Gridiron</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../jquery.colorbox.js"></script>
+
+    </head>
+
+    <body>
+     <script type="text/javascript">
+$(function() {
+    function reposition() {
+        var modal = $(this),
+            dialog = modal.find('.modal-dialog');
+        modal.css('display', 'block');
+        
+        // Dividing by two centers the modal exactly, but dividing by three 
+        // or four works better for larger screens.
+        dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
+    }
+    // Reposition when a modal is shown
+    $('.modal').on('show.bs.modal', reposition);
+    // Reposition when the window is resized
+    $(window).on('resize', function() {
+        $('.modal:visible').each(reposition);
+    });
+});
+     </script>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">The Goose & Gridiron</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
+                            <li><a class="color_animation" href="#story">ABOUT</a></li>
+                            <li><a class="color_animation" href="#pricing">MENU</a></li>
+                            <li><a class="color_animation" href="#beer">PUB</a></li>
+                            <li><a class="color_animation" href="#bread">DINING</a></li>
+                            <li><a class="color_animation" href="#featured">EVENTS</a></li>
+                            <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
+                            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title"></h2>
+                    <h2 class="white second-title"></h2>
+                    <!--<hr>-->
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <div class="fa fa-info fa-2x"></div>
+                    <p class="desc-text">We are a full service restaurant & pub located in beautiful Merrickville. Come enjoy yourself in our cozy home setting with your friends and family or just the two of you for a romantic night out. You can sit on our patio in the warm summer months and enjoy a cold pint. We have three big screens in our canadian pub to enjoy sporting events of all kinds. Book your next party in our full service private gathering room. Good food and good cheer awaits all. Cheers!!!</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/goosepatio.jpg" width="250" height="220">
+                       <img src="images/inside5.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/inside2.jpg"  width="250" height="220">
+                       <img src="images/goosesign.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+             <br /><br />
+                <h1><span>Great</span> menu</h1>
+             </div>
+            <div class="text-content container"> 
+            <center />Click to open the menu!
+                <div class="container">
+                    <div class="row">
+                    <br />
+                        <a href="images/menu.pdf"><img src="images/menu.pdf" height="300" id="menu"></a>
+                        
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+
+        <!-- ============ Pub  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content"><br/><br/>
+                <h1>Great <span>Place</span> to enjoy</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/beer_spec.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>THE PUB</h1>
+                    <div class="icon-beer fa-2x"></div>
+                    <p class="desc-text"> You can look into a towns soul by sitting in one of it's pubs. This said, Merrickville is a great town full of warm and inviting people ready to chat with anyone! Belly up to the bar, enjoy a refreshing beverage and the company of friendly locals, or you might like a little privacy which you can enjoy in one of the booths in our pub. Cheers!!</p>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Dining Room  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1><span></span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>DINING ROOM</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Come in and sit down in our cozy, warm, inviting dinning room and enjoy a great homemade meal! Order and relax, we are waiting to prepare the right dish for you! You'll feel right at home! Bring your family or that someone special for great ambience and a great meal at The Goose!!</p>
+                </div>
+                <div class="col-md-6"><br/><br/><br/>
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"><img src="images/inside3.jpg" width="260"></button>
+
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="images/inside3.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"><img src="images/inside6.jpg" width="260"></button>
+
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="images/inside6.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+            
+                </div>
+            </div>
+        </section>
+
+  <!-- ============ Event Room  ============= -->
+
+
+        <section id="event" class=" description_content">
+            <div  class="event background_content">
+                <h1><span></span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>EVENT ROOM</h1>
+                    <div class="fa fa-glass fa-2x"></div>
+                    <p class="desc-text">If you have an event planned ask us to host your get together in our beautiful banquet room! Birthdays, meetings what ever kind of event or party you might have in mind we can accommodate your special day. You can order off the menu or have us prepare something special for your event! We are here to help you with your plans! See you soon!!</p>
+                </div>
+                <div class="col-md-6"><br/><br/><br/>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"><img src="images/inside3.jpg" width="260"></button>
+
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="images/inside3.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal"><img src="images/inside6.jpg" width="260"></button>
+
+                        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="images/inside6.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+        </section>
+
+        
+      
+
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content">
+                <h1></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="Province" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="How Many Guests?" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text">
+                                            <h2>Hours</h2><hr>
+                                            <p>Monday: 11 AM - 11 PM</p>
+                                            <p>Tuesday: 11 AM - 11 PM</p>
+                                            <p>Wednesday: 11 AM - 11 PM</p>
+                                            <p>Thursday: 11 AM - 12 AM</p>
+                                            <p>Friday: 11 AM - 12 AM</p>
+                                            <p>Saturday: 11 AM - 12 AM</p>
+                                            <p>Sunday: 11 AM - 11 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                        <div id="reserveFormResponse"></div>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FOLLOW US</span>
+                    <ul class="social_icons">
+                        <li><a href="https://www.facebook.com/thegooseandgridiron"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">OR DIAL</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(613) 269-2094</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.4449110392206!2d-75.8385650842605!3d44.91428707798795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd911a8dd98689%3A0x91b038bcff8c73d6!2sGoose+%26+Gridiron+The!5e0!3m2!1sen!2sca!4v1488921564957" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                                
+                    <form id="contactForm" action="contact_form.php" method="post">
+                        <!-- Left Inputs -->
+                        <div class="col-md-6 ">
+                            <div class="input-group">       
+                                <input class="form" type="text" placeholder="Name" name="name" required>
+                            </div>
+                            <div class="input-group">       
+                                <input class="form" name="email" type="email" placeholder="Email address" required>
+                            </div>
+                            <div class="input-group">       
+                                <input class="form" type="tel" placeholder="Phone number" name="number">
+                            </div>
+                            
+                        </div><!-- End Left Inputs -->
+
+
+                        <!-- Right Inputs -->
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <textarea class="form" rows="9" placeholder="Write Message" name="message"></textarea>
+                            </div>
+                            <button id="cfsubmit" type="submit" class="text-center form-btn form-btn">Send your Message</button>
+                        
+                        </div><!-- End Contact Form Area -->
+                </form>
+                <div id="contactFormResponse"></div>
+
+                       
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; The Goose & Gridiron</p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Built With Care By <a href="http://www.hipnoetic.com" target="_blank">Hipnoetic</a></p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+</html>
