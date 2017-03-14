@@ -52,7 +52,6 @@ $(document).ready(function () {
                     $cfsubmit.text(cfsubmitText);
                     $('#contact-us input[name=first_name]').val('');
                     $('#contact-us input[name=last_name]').val('');
-                    $('#contact-us input[name=state]').val('');
                     $('#contact-us input[name=datepicker]').val('');
                     $('#contact-us input[name=phone]').val('');
                     $('#contact-us input[name=guest]').val('');
