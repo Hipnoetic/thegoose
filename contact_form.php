@@ -46,7 +46,7 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$subject = 'Contact Form : Women Entrepreneur Responsive HTML5 Template';
+	$subject = 'Contact Form';
 	
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -56,7 +56,7 @@
 	if (mail ($to, $subject, $body)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
+		$result .= 'Thank You! we will be in touch';
 		$result .= '</div>';
 
 		echo $result;
