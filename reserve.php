@@ -10,10 +10,8 @@
             $errors['first_name'] = 'Please enter your first name';
       }
 
-      // Check if state has been entered
-      if (!isset($_POST['state'])) {
-            $errors['state'] = 'Please enter your province';
-      }
+      // Check if provice has been entered (removed)
+   
 
       // Check if date has been entered
       if (!isset($_POST['datepicker'])) {
