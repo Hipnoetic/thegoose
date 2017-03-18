@@ -591,7 +591,11 @@ h1 {
 MEDIA QUERIES MOBILE
 =========================*/
 
-@media (max-width: 660px) {
+
+
+
+
+@media only screen and (max-width: 660px) {
     .top-title {
         font-size: 67px;
     }
@@ -615,7 +619,7 @@ MEDIA QUERIES TABLET
 =========================*/
 
 
-    @media (min-width: 400px) { 
+    @media only screen and (min-width: 400px) { 
     .starter_container {
         height: 100%;
         
@@ -629,7 +633,7 @@ MEDIA QUERIES TABLET
 MEDIA QUERIES TABLET
 =========================*/
 
-    @media (min-width: 660px) { 
+    @media only screen and (min-width: 660px) { 
   
         .starter_container {
             height: 100%;
