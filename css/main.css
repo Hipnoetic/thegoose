@@ -613,6 +613,11 @@ MEDIA QUERIES MOBILE
         margin: 0px auto;
         /* display: block; */
     }
+    -moz-background-size: auto;
+        -webkit-background-size: auto;
+	background-attachment: scroll;
+	background-position: top;
+        background-size: auto;
 }
 /*========================
 MEDIA QUERIES TABLET
@@ -626,7 +631,12 @@ MEDIA QUERIES TABLET
     }
     .background_content h1 {
       top: 33%;
-    }  
+    } 
+        -moz-background-size: auto;
+        -webkit-background-size: auto;
+	background-attachment: scroll;
+	background-position: top;
+        background-size: auto;
 }
 
 /*========================
@@ -786,6 +796,11 @@ MEDIA QUERIES TABLET
         margin: 0 auto;
         width: 325px;
     } 
+-moz-background-size: auto;
+        -webkit-background-size: auto;
+	background-attachment: scroll;
+	background-position: top;
+        background-size: auto;
 
 } /*END OF MEDIA QUERY*/
 
