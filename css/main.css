@@ -594,15 +594,39 @@ MEDIA QUERIES MOBILE
 @media (max-width: 660px) {
     .top-title {
         font-size: 67px;
+	    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
     }
 
     .second-title {
         font-size: 21px;
+	    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
     }
 
     .background_content h1 {
         width: 80%;
         font-size: 2.5em;
+	    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
     }
 
     .form-btn {
@@ -617,20 +641,25 @@ MEDIA QUERIES TABLET
 
     @media (min-width: 400px) { 
     .starter_container {
-        height: 100%;
-        -moz-background-size: auto;
-        -webkit-background-size: auto;
-	    background-attachment: scroll;
-	    background-position: top;
-        background-size: auto;
+       background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
     }
     .background_content h1 {
       top: 33%;
-        -moz-background-size: auto;
-        -webkit-background-size: auto;
-	background-attachment: scroll;
-	background-position: top;
-        background-size: auto;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
     }  
 }
 
@@ -641,12 +670,15 @@ MEDIA QUERIES TABLET
     @media (min-width: 660px) { 
   
         .starter_container {
-            height: 100%;
-            -moz-background-size: auto;
-        -webkit-background-size: auto;
-	background-attachment: scroll;
-	background-position: top;
-        background-size: auto;
+           
+            background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  max-width:100%;
         }
 
     /*========================
